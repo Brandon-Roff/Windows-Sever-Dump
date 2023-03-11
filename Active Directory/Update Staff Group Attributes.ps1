@@ -1,0 +1,1 @@
+Get-ADGroup -filter * -searchbase 'OU="Staff Groups",OU=Groups,DC=Domain,DC=internal' | Set-ADGroup -Replace @{Attributename='Buisness'}

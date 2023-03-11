@@ -1,0 +1,1 @@
+Get-ADUser -filter * -searchbase 'OU="Current",OU="Students",OU=Users,OU="OPA 365",DC=PADC,DC=internal' | Set-ADUser -Replace @{extensionAttribute1='Student';extensionAttribute2='Ormiston Park Academy';company='Ormiston Park Academy'}

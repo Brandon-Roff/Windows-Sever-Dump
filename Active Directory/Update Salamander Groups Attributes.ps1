@@ -1,0 +1,1 @@
+Get-ADGroup -filter * -searchbase 'OU="Salamander Groups",OU=Groups,OU="OPA 365",DC=PADC,DC=internal' | Set-ADGroup -Replace @{extensionAttribute2='Ormiston Park Academy'; company='Ormiston Park Academy'}
