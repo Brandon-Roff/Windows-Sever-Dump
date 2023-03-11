@@ -1,0 +1,1 @@
+DelProf2.exe  /q /ed:admin* /ed:*admin /ed:bradmin /ed:opa* /ed:public

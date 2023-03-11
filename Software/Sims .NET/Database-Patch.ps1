@@ -1,0 +1,1 @@
+\\OPA-SRV16-MIS\SIMSDATA$\sims\Setups\SIMSapplicationsetup.exe /s {NoServerApps} [SIMSDirectory]="s:\SIMS\" [SIMSDotNetDirectory]="C:\Program Files\SIMS\SIMS .net"
